@@ -1,12 +1,12 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
-div {
+.ball {
   width: 100px;
   height: 100px;
   position: absolute;

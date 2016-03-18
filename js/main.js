@@ -1,6 +1,6 @@
 var $input = $('#colour-input');
-var $div = $('div');
+var $ball = $('.ball');
 
 $('form').on('change', function (e) {
-  $div.css('background-color', $input.val());
+  $ball.css('background-color', $input.val());
 });
